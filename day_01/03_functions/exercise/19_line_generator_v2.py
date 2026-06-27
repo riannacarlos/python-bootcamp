@@ -1,9 +1,6 @@
-"""
-    TODO: Create a function `line_generator` that has a parameter `number` and prints the following:
-	Line 1
-	Line 2
-	...
-	Line number
-"""
+lines = int(input("Give a number:"))
+def line_generator(lines):
+    for line in range(lines):
+        print("Line", line)
 
-# TODO: Use the function once
+line_generator(lines)

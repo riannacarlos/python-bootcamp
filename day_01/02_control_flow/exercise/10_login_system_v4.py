@@ -7,6 +7,7 @@ username_input = input("Please provide username: ")
 password_input = input("Please provide password: ")
 
 # TODO: Notify user if credentials are valid or invalid
-correct_credentials = None
-print("Access Granted")
-print("Access Denied")
+if correct_username == username_input and correct_password == password_input:
+    print("Access Granted")
+else:
+    print("Access Denied")
