@@ -2,7 +2,14 @@
 email_input = input("Enter your email address: ")
 
 # TODO: If valid gmail address
-print("This is a valid gmail address")
+email= email_input.endswith("@gmail.com")
+print(email_input)
+
+if email:
+    print("This is a valid gmail address")
+else:
+    print("This is NOT a valid gmail address")
 
 # TODO: Else
-print("This is NOT a valid gmail address")
+
+

@@ -1,13 +1,21 @@
 # TODO: Fill in the details of the items you plan to buy
-order = {
-    "Name": ...,
-    "Info": ...,
-}
+orders = [
+    {
+    "Name": "Phone",
+    "Info": "70,000",
+    "Brand": "Apple",
+    "Color": "Yellow"
+    },
+    {
+    "Name": "Watch",
+    "Info": "20,000",
+    "Brand": "Samsung",
+    "Color": "Black"
+    }
+]
 
 # TODO: Print the item details in the following format (for each order):
-"""
-Order:
-	Name: item name
-	Info: item info
-	...
-"""
+for order in orders:
+    print("Order:")
+    for key,value in order.items():
+        print((f"{key}: {value}"))

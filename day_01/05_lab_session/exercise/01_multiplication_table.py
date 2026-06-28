@@ -1,6 +1,6 @@
 # TODO: Ask the user for an integer input
 number = int(input("Pick a number: "))
-for num in range(1,10):
+for num in range(1,11):
     print(number,"x", num, "=", number*num)
 
 # TODO: Print the multiplication table for that number
